@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-upgrade-lumberjack" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>cordova-plugin-upgrade-lumberjack</name>
+
+    <platform name="ios">
+        <hook type="after_plugin_install" src="hooks/upgrade-lumberjack.js"/>
+    </platform>
+
+</plugin>
